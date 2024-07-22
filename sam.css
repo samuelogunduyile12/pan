@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+
+main{
+    background: linear-gradient(180deg, #212832, #191d28 70%);
+    margin: auto;
+    width: 30%;
+    height: 450px;
+    margin-block-start: 10%;
+    border-radius: 20px;
+}
+
+
+ul li{
+      display: inline-block;
+      height: 55px;
+      width: 55px;
+      border-radius: 45px;
+      text-align: center;
+      align-items: center;
+      background-color: #7a818b;
+      line-height: 50px;
+      justify-content: center;
+      margin-block-start: 12px;
+      margin-block-end: 12px;
+      margin-inline-start: 20px;
+      margin-inline-end: 8px;
+}
+
+
+#empty{
+    width: 35px;
+    height: 35px;
+    border-radius: 30px;
+    background-image: url(./starorange.png);
+    background-size: 20px;
+    background-color: #262d37;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-inline-start: 30px;
+    margin-inline-end: 30px;
+    margin-block-start: 50px;
+    margin-block-end: 30px;
+}
+
+button{
+    letter-spacing: 3px;
+}
